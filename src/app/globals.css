@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background-color: white;
+}
+.myNav {
+  background-color: #2cc5d5ed;
+  background-image: linear-gradient(
+    rgb(11 109 199 / 82%),
+    rgb(23 204 233 / 63%)
+  );
+}
+.footerName{
+  background-color: #2cc5d5ed;
+  background-image: linear-gradient(
+    rgb(23 204 233 / 63%),
+    rgb(11 109 199 / 82%)
+  );
+}
+.seperate{
+  width: 100%;
+  height: 5px;
+  background-color: black;
+}
+.homecolor{
+  background-color: #0fbed1d9;
+}
