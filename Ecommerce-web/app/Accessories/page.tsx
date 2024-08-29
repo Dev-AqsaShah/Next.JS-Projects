@@ -36,6 +36,12 @@ const Shoes: React.FC = () => {
               <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-75 text-white text-center py-2 group-hover:opacity-100 rounded-b-lg transition-opacity duration-500">
                 {item.price}
               </div>
+              <div className="absolute bottom-2 p-8 m-8 flex justify-center">
+              <button className="bg-black text-white py-2 px-4 rounded-lg transition transform hover:scale-105 hover:animate-shake">
+                Add to Cart
+              </button>
+            </div>
+        
             </div>
           </div>
         ))}
