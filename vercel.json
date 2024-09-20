@@ -1,35 +1,54 @@
 {
-    "projects": {
-      "countdown-timer": {
-        "root": "countdown-timer",
-        "buildCommand": "build-next"
-        "outputDirectory": "out"
-      },
-      "Ecommerce-web": {
-        "root": "Ecommerce-web",
-        "buildCommand": "build-next",
-        "outputDirectory": "out"
-      },
-      "happy-birthday": {
-        "root": "happy-birthday",
-        "buildCommand": "build-next",
-        "outputDirectory": "out"
-      },
-      "Portfolio": {
-        "root": "Portfolio",
-        "buildCommand": "build-next",
-        "outputDirectory": "out"
-      },
-      "Stopwatch": {
-        "root": "Stopwatch",
-        "buildCommand": "build-next",
-        "outputDirectory": "out"
-      },
-      "weather-widget": {
-        "root": "weather-widget",
-        "buildCommand": "build-next",
-        "outputDirectory": "out"
-      }
+  "builds": [
+    {
+      "src": "countdown-timer/package.json",
+      "use": "@vercel/next"
+    },
+    {
+      "src": "Ecommerce-web/package.json",
+      "use": "@vercel/next"
+    },
+    {
+      "src": "happy-birthday/package.json",
+      "use": "@vercel/next"
+    },
+    {
+      "src": "Portfolio/package.json",
+      "use": "@vercel/next"
+    },
+    {
+      "src": "Stopwatch/package.json",
+      "use": "@vercel/next"
+    },
+    {
+      "src": "weather-widget/package.json",
+      "use": "@vercel/next"
     }
-  }
-  
+  ],
+  "routes": [
+    {
+      "src": "/countdown-timer/(.*)",
+      "dest": "/countdown-timer/$1"
+    },
+    {
+      "src": "/Ecommerce-web/(.*)",
+      "dest": "/Ecommerce-web/$1"
+    },
+    {
+      "src": "/happy-birthday/(.*)",
+      "dest": "/happy-birthday/$1"
+    },
+    {
+      "src": "/Portfolio/(.*)",
+      "dest": "/Portfolio/$1"
+    },
+    {
+      "src": "/Stopwatch/(.*)",
+      "dest": "/Stopwatch/$1"
+    },
+    {
+      "src": "/weather-widget/(.*)",
+      "dest": "/weather-widget/$1"
+    }
+  ]
+}
