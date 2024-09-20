@@ -1,0 +1,35 @@
+{
+    "projects": {
+      "countdown-timer": {
+        "root": "countdown-timer",
+        "buildCommand": "npm run build",
+        "outputDirectory": "out"
+      },
+      "Ecommerce-web": {
+        "root": "Ecommerce-web",
+        "buildCommand": "npm run build",
+        "outputDirectory": "out"
+      },
+      "happy-birthday": {
+        "root": "happy-birthday",
+        "buildCommand": "npm run build",
+        "outputDirectory": "out"
+      },
+      "Portfolio": {
+        "root": "Portfolio",
+        "buildCommand": "npm run build",
+        "outputDirectory": "out"
+      },
+      "Stopwatch": {
+        "root": "Stopwatch",
+        "buildCommand": "npm run build",
+        "outputDirectory": "out"
+      },
+      "weather-widget": {
+        "root": "weather-widget",
+        "buildCommand": "npm run build",
+        "outputDirectory": "out"
+      }
+    }
+  }
+  
