@@ -1,5 +1,5 @@
 import Image from 'next/image'; 
-import logo from '../../../public/assets/logo.jpg.jpg'; 
+import logo from '/assets/logo.jpg.jpg'; 
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import Link from 'next/link';
 const Navbar = () => {
