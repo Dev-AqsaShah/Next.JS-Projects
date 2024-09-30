@@ -44,7 +44,7 @@ const Hero = () => {
             alt="hero"
             width={400}
             height={400}
-            src={require("../../../public/asets/1page.jpg")}
+            src={require("../../../public/assets/1page.jpg")}
           />
         </div>
       </div>

@@ -1,5 +1,5 @@
 import Image from 'next/image'; 
-import logo from '../../../public/asets/logo.jpg.jpg'; 
+import logo from '../../../public/assets/logo.jpg.jpg'; 
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import Link from 'next/link';
 const Navbar = () => {
@@ -18,7 +18,7 @@ const Navbar = () => {
                         <Link href={"#projects"} className="mr-5 hover:text-blue-100">Projects</Link>
                         <Link href={"#contact"} className="mr-5 hover:text-blue-100">Contact</Link>
                     </nav>
-                    <a href='/asets/AqsaNazz.pdf'>
+                    <a href='/assets/AqsaNazz.pdf'>
                     <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-2 focus:outline-none hover:bg-blue-200 rounded text-base mt-4 md:mt-0">
                         Download CV
                         <FaCloudDownloadAlt className='text-xl ml-4'/>

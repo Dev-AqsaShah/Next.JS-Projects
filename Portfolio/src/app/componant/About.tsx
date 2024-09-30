@@ -4,13 +4,13 @@ import Image from 'next/image'
 const about = () => {
   return (
     <div id='about'>
-      <section className="text-gray-600 body-font bg-blue-300 homecolor ">
+      <section className="text-gray-600 body-font bg-blue-300 ">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center justify-evenly">
     <div className="lg:max-w-lg lg:w-full md:w-3/2 w-5/6 mb-10 md:mb-0">
       <Image
         className="object-cover object-center rounded "
         alt="hero"
-        src={require("../../../public/asets/about.jpg")}
+        src={require("../../../public/assets/about.jpg")}
         width={300}
         height={300}
       />

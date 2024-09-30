@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Project = () => {
   return (
     <div>
-      <section className="text-gray-600 body-font bg-blue-300 homecolor ">
+      <section className="text-gray-600 body-font bg-blue-300  ">
         <div className="container px-5 py-4 mx-auto">
           <div className="flex flex-col text-center w-500 mb-20">
             <h1 className="sm:text-4xl text-2xl font-small title-font mb-4 text-gray-900">
@@ -38,7 +38,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                  src={require("../../../public/assets/qrcode.jpg.png")}
+                  src={require("../../../public/assets/qr-code.jpg.png")}
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-blue-200 bg-opacity-70 group-hover:bg-opacity-0 transition-opacity duration-500">
                   <div className="text-center group-hover:hidden">
@@ -57,7 +57,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                  src={require("../../../public/assets/todolist.jpg.png")}
+                  src={require("../../../public/assets/todo-list.jpg.png")}
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-blue-200 bg-opacity-70 group-hover:bg-opacity-0 transition-opacity duration-500">
                   <div className="text-center group-hover:hidden">
@@ -96,7 +96,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                  src={require("../../../public/assets/age calcu.png")}
+                  src={require("../../../public/assets/age calc.png")}
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-blue-200 bg-opacity-70 group-hover:bg-opacity-0 transition-opacity duration-500">
                   <div className="text-center group-hover:hidden">
