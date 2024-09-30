@@ -18,7 +18,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                  src={require("../../../public/assets/clone.png")}
+                  src={require("/assets/cLone.png")}
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-blue-200 bg-opacity-70 group-hover:bg-opacity-0 transition-opacity duration-500">
                   <div className="text-center group-hover:hidden">
@@ -38,7 +38,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                  src={require("../../../public/assets/qr-code.jpg.png")}
+                  src={require("/assets/qr-code.jpg.png")}
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-blue-200 bg-opacity-70 group-hover:bg-opacity-0 transition-opacity duration-500">
                   <div className="text-center group-hover:hidden">
@@ -57,7 +57,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                  src={require("../../../public/assets/todo-list.jpg.png")}
+                  src={require("/assets/todo-list.jpg.png")}
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-blue-200 bg-opacity-70 group-hover:bg-opacity-0 transition-opacity duration-500">
                   <div className="text-center group-hover:hidden">
@@ -77,7 +77,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                  src={require("../../../public/assets/text voice.png")}
+                  src={require("/assets/text voice.png")}
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-blue-200 bg-opacity-70 group-hover:bg-opacity-0 transition-opacity duration-500">
                   <div className="text-center group-hover:hidden">
@@ -96,7 +96,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                  src={require("../../../public/assets/age calc.png")}
+                  src={require("/assets/age calc.png")}
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-blue-200 bg-opacity-70 group-hover:bg-opacity-0 transition-opacity duration-500">
                   <div className="text-center group-hover:hidden">
@@ -115,7 +115,7 @@ const Project = () => {
                 <Image
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                  src={require("../../../public/assets/todo-css.png")}
+                  src={require("/assets/todo-css.png")}
                 />
                 <div className="absolute inset-0 flex items-center justify-center bg-blue-200 bg-opacity-70 group-hover:bg-opacity-0 transition-opacity duration-500">
                   <div className="text-center group-hover:hidden">

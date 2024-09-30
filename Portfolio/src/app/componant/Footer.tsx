@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoLogoYoutube } from "react-icons/io";
 import Image from 'next/image';
-import logo from '../../../public/asets/logo.jpg.jpg'; 
+// import logo from '../../../public/assets/logo.jpg.jpg'; 
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 
@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
       <footer className="text-gray-600 body-font footerName">
         <div className="container px-5 py-2 mx-auto flex items-center sm:flex-row flex-col">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <Image src={logo} alt="AqsaShah Logo" width={100} height={100} className='rounded-full' />
+            <Image src="/assets/logo.jpg.jpg" alt="AqsaShah Logo" width={100} height={100} className='rounded-full' />
             <span className="ml-3 text-xl">AqsaShah</span>
           </a>
           <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
