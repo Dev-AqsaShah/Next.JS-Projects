@@ -1,6 +1,6 @@
 
-import React from 'react'
-import Timer from '@/Components/Timer'
+import React from "react"
+import Timer from "../Components/Timer"
 
 function page() {
   return (
